@@ -1,0 +1,59 @@
+<div class="table-responsive">
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">
+          <input type="text" 
+            class="form-control" 
+            placeholder="Search Video title ..."
+            (keyup)="filterData()"
+            [(ngModel)]="titleFilter"/>
+        </th>
+        <th scope="col">
+          <input type="text" 
+            class="form-control" 
+            placeholder="Search Page name ..."
+            (keyup)="filterData()"
+            [(ngModel)]="parentFilter"/>
+        </th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+      </tr>
+      <tr>
+        <th scope="col">Video title</th>
+        <th scope="col">Page name</th>
+        <th scope="col">Publish date</th>
+        <th scope="col">Comments</th>
+        <th scope="col" 
+          class="sortable"
+          [ngClass]="{'sort': currentSortedEntry=='views', 'asc': currentSortedType=='Asc', 'dec': currentSortedType=='Dec'}" 
+          (click)="sortData('views', 'Asc')">Views</th>
+        <th scope="col" 
+          class="sortable"
+          [ngClass]="{'sort': currentSortedEntry=='likes', 'asc': currentSortedType=='Asc', 'dec': currentSortedType=='Dec'}" 
+          (click)="sortData('likes', 'Asc')">Likes</th>
+        <th scope="col" 
+          class="sortable"
+          [ngClass]="{'sort': currentSortedEntry=='shares', 'asc': currentSortedType=='Asc', 'dec': currentSortedType=='Dec'}" 
+          (click)="sortData('shares', 'Asc')">Shares</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let entity of content">
+        <th scope="row">{{entity.title}}</th>
+        <td>{{entity.parent_name}}</td>
+        <td>{{entity.published | date:'MMM d, y, h:mm a'}}</td>
+        <td>{{entity.comments | number}}</td>
+        <td>{{entity.views | number}}</td>
+        <td>{{entity.likes | number}}</td>
+        <td>{{entity.shares | number}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p style="text-align: center" *ngIf="loading"> Loading ..... <br> It's fake but you have to wait :D</p>
+<P style="text-align: center" *ngIf="ended && !noData">Page ended :(</P>
+<p style="text-align: center" *ngIf="noData">No data to display :'( <br> </p>

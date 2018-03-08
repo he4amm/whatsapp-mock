@@ -1,0 +1,17 @@
+<app-app-navbar [title]="title"></app-app-navbar>
+
+<div class="container-fluid">
+  <div class="row justify-content-md-center">
+    <div class="col">
+      
+      <app-app-table 
+        [content]="tableContent"
+        [loading]="dataLoading"
+        [ended]="dataEnded"
+        [noData]="noDataToDisplay"
+        (onFilter)="filter($event[0],$event[1])"
+        (onSort)="sort($event[0],$event[1])"></app-app-table>
+
+    </div>
+  </div>
+</div>

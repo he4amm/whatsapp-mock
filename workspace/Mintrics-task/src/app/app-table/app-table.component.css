@@ -1,0 +1,34 @@
+.table {
+    margin-top: 50px;
+}
+
+table>thead>tr>th {
+    position: relative;
+}
+
+.table>thead>tr>th.sortable:not(.sort):hover:after {
+    content: '↓';
+    position: absolute;
+    top: 12px;
+    left: -3px;
+    color: rgb(122, 122, 122);
+}
+
+.table>thead>tr>th.sortable {
+    cursor: pointer;
+}
+
+.table>thead>tr>th.sort:after {
+    position: absolute;
+    top: 12px;
+    left: -3px;
+    color: black;
+}
+
+.table>thead>tr>th.sort.dec:after {
+    content: '↑';
+}
+
+.table>thead>tr>th.sort.asc:after {
+    content: '↓';
+}
