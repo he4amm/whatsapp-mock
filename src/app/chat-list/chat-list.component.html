@@ -4,4 +4,23 @@
       <input type="text" class="form-control" id="searchForm" aria-describedby="emailHelp" placeholder="Search...">
     </div>
   </div>
+
+  <div class="chat-list_content">
+    <div class="chat-item" *ngFor="let chat of chatList">
+      <span class="chat-item_img"
+       [ngStyle]="{'background-image': 'url(' + chat.image + ')'}">
+      </span>
+      <div class="chat-item_details">
+        <div class="chat-item_row">
+          <span class="chat-item_user">
+            {{chat.name}}
+          </span>
+          <span class="chat-item_date">
+            {{chat.date | date:'short'}}
+          </span>
+        </div>
+        <span class="chat-item_lastmsg">Hello</span>
+      </div>
+    </div>
+  </div>
 </div>
