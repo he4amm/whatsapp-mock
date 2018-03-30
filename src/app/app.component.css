@@ -1,5 +1,9 @@
-body {
-    background-color: #dfdfdf;
-    background-image: linear-gradient(to bottom, #dddbd1, #d2dbdc);
-    padding: 0px !important;
+@media screen and (min-width: 768px) {
+    .div-left {
+        padding-right: 0px !important;
+        border-right: 1px solid rgb(228, 230, 230);
+    }
+    .div-right {
+        padding-left: 0px !important;
+    }
 }

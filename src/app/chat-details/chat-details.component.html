@@ -1,3 +1,19 @@
-<p>
-  chat-details works!
-</p>
+<div class="chat-details_container">
+  <div class="chat-details_header">
+    <span class="header_img" [ngStyle]="{'background-image': 'url(' + '../assets/img/user1.png' + ')'}"></span>
+    <span class="header_name">Clayton Boone</span>
+  </div>
+
+  <div class="chat-details_content">
+
+  </div>
+
+  <div class="chat-details_footer">
+    <div class="form-group">
+      <input type="text" class="form-control" id="message" placeholder="Type a message">
+    </div>
+    <span class="send">
+      <img src="../assets/img/send.png" class="send-icon"/>
+    </span>
+  </div>
+</div>
