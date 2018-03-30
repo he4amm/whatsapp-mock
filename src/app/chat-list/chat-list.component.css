@@ -1,0 +1,17 @@
+.chat-list_container{
+    height: 100vh;
+    background-color: #fff;
+}
+
+.chat-list_header {
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+}
+
+.chat-list_header .form-group {
+    margin-bottom: 0px !important;
+}
+
+.chat-list_header .form-group input {
+    border-radius: 25px;
+}
