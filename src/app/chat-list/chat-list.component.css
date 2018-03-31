@@ -25,9 +25,11 @@
     border-bottom: 1px solid rgb(228, 230, 230);
     display: flex;
     padding: 10px 15px 10px 10px;
+    cursor: pointer;
 }
 
-.chat-list_content .chat-item:hover {
+.chat-list_content .chat-item:hover,
+.chat-list_content .chat-item.active {
     background-color: rgb(228, 230, 230);
 }
 

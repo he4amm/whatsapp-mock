@@ -6,9 +6,12 @@
   </div>
 
   <div class="chat-list_content">
-    <div class="chat-item" *ngFor="let chat of chatList">
+    <div class="chat-item" 
+      *ngFor="let chat of chatList"
+      [class.active]="activeChat === chat.id"
+      (click)="onChatClick(chat)">
       <span class="chat-item_img"
-       [ngStyle]="{'background-image': 'url(' + chat.image + ')'}">
+       [ngStyle]="{'background-image': 'url(' + chat.picture + ')'}">
       </span>
       <div class="chat-item_details">
         <div class="chat-item_row">
@@ -16,10 +19,10 @@
             {{chat.name}}
           </span>
           <span class="chat-item_date">
-            {{chat.date | date:'short'}}
+            {{chat.latest_timestamp}}
           </span>
         </div>
-        <span class="chat-item_lastmsg">Hello</span>
+        <span class="chat-item_lastmsg">{{chat.lastChat}}</span>
       </div>
     </div>
   </div>

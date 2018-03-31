@@ -1,62 +1,602 @@
 [
     {
-        "name": "Clayton Boone",
-        "id": 100,
-        "date": "2018-03-13 13:24:54",
-        "image": "../assets/img/user1.png"
+        "id": 2,
+        "type": "single",
+        "name": "Alex",
+        "picture": "https://image.ibb.co/cA2oOb/alex_1.jpg",
+        "latest_timestamp": "10:00 AM",
+        "lastChat": "Or maybe not, let me check logistics and call you. Give me sometime",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Herman Chambers",
-        "id": 101,
-        "date": "2017-07-25 18:44:04",
-        "image": "../assets/img/user2.jpg"
+        "id": 3,
+        "type": "group",
+        "name": "Class mates",
+        "picture": "../assets/img/group.png",
+        "latest_timestamp": "12:30 AM",
+        "lastChat": "Alright",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Sancha",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Joan",
+                "time": "09:40 AM",
+                "text": "yes, you exaaaaaam",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Virginia Ford",
-        "id": 102,
-        "date": "2017-12-15 04:36:44",
-        "image": "../assets/img/user3.jpg"
+        "id": 4,
+        "type": "single",
+        "name": "Luke",
+        "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
+        "latest_timestamp": "4:12 PM",
+        "lastChat": "I will look into it",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Ashely Farley",
-        "id": 103,
-        "date": "2018-01-24 23:09:27",
-        "image": "../assets/img/user4.jpeg"
+        "id": 5,
+        "type": "single",
+        "name": "Bane",
+        "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
+        "latest_timestamp": "7:53 PM",
+        "lastChat": "Exactly my point!",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Destiny Mann",
-        "id": 104,
-        "date": "2017-06-25 21:56:33",
-        "image": "../assets/img/user5.jpg"
+        "id": 6,
+        "type": "single",
+        "name": "Darth Vader",
+        "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
+        "latest_timestamp": "1:09 PM",
+        "lastChat": "Not quite the same.",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Gavin Mcclain",
-        "id": 105,
-        "date": "2017-06-26 00:21:48",
-        "image": "../assets/img/user6.jpg"
+        "id": 7,
+        "type": "single",
+        "name": "Zach",
+        "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
+        "latest_timestamp": "Yesterday",
+        "lastChat": "I thought that the event was over long ago",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Sharon Newton",
-        "id": 106,
-        "date": "2017-08-26 16:44:52",
-        "image": "../assets/img/user7.png"
+        "id": 8,
+        "type": "single",
+        "name": "Katie",
+        "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
+        "latest_timestamp": "Yesterday",
+        "lastChat": "nothing",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Melanie Dixon",
-        "id": 107,
-        "date": "2017-04-05 13:44:07",
-        "image": "../assets/img/user8.jpg"
+        "id": 9,
+        "type": "single",
+        "name": "Chloe",
+        "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
+        "latest_timestamp": "Wednesday",
+        "lastChat": "sure i'll take it from you",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Astra Dawson",
-        "id": 108,
-        "date": "2017-09-22 06:01:52",
-        "image": "../assets/img/user9.jpg"
+        "id": 10,
+        "type": "single",
+        "name": "Kennith",
+        "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
+        "latest_timestamp": "Wednesday",
+        "lastChat": "Take care, bye",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     },
     {
-        "name": "Hollee Burch",
-        "id": 109,
-        "date": "2017-04-06 21:00:34",
-        "image": "../assets/img/user10.jpg"
+        "id": 11,
+        "type": "single",
+        "name": "Tara",
+        "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
+        "latest_timestamp": "Monday",
+        "lastChat": "Not today",
+        "messages": [
+            {
+                "sender": "me",
+                "time": "09:30 AM",
+                "text": "Hi, how are you Alex?",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:31 AM",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "09:34 AM",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "09:40 AM",
+                "text": "I'm fine, too",
+                "status": "read",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "time": "10:00 AM",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
     }
 ]

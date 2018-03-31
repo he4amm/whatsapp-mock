@@ -1,11 +1,28 @@
 <div class="chat-details_container">
   <div class="chat-details_header">
-    <span class="header_img" [ngStyle]="{'background-image': 'url(' + '../assets/img/user1.png' + ')'}"></span>
-    <span class="header_name">Clayton Boone</span>
+    <span class="header_img" [ngStyle]="{'background-image': 'url(' + chatDetails.picture + ')'}"></span>
+    <span class="header_name">{{chatDetails.name}}</span>
   </div>
 
   <div class="chat-details_content">
-
+    <div class="chat_message-container">
+      <div
+        *ngFor="let message of chatDetails.messages; let i = index;"
+        [ngClass]="{
+          'sent': message.status, 
+          'recieved': !message.status,
+          'firstInRow': isFirstInRow(i)}">
+        <div class="chat_message">
+          <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
+            {{message.sender}}
+          </span>
+          <span class="text">
+            {{message.text}}
+          </span>
+          <span class="date">{{message.time}}</span>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="chat-details_footer">

@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { DataService } from '../_services/data.service';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-chat-list',
@@ -7,17 +6,18 @@ import { DataService } from '../_services/data.service';
   styleUrls: ['./chat-list.component.css']
 })
 export class ChatListComponent implements OnInit {
-  chatList: any[];
+  activeChat: number;
+  @Input('chatList') chatList: any[];
+  @Output() showChat: EventEmitter<any> = new EventEmitter<any>();
 
   constructor(
-    private dataService: DataService
-  ) { }
+  ) {}
 
-  ngOnInit() {
-    this.dataService.getChatList()
-      .subscribe(result => {
-        this.chatList = result;
-      });
+  ngOnInit() {}
+
+  onChatClick( data ) {
+    this.activeChat = data.id;
+    this.showChat.next(data);
   }
 
 }
