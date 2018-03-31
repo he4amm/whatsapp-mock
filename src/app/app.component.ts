@@ -42,5 +42,8 @@ export class AppComponent implements OnInit {
 
     // push new message to chatDetails array
     chat.messages.push(message[0]);
+
+    // scroll top in chat list
+    document.getElementById('chatlist').scrollTop = 0;
   }
 }

@@ -5,7 +5,7 @@
     </div>
   </div>
 
-  <div class="chat-list_content">
+  <div class="chat-list_content" id="chatlist">
     <div class="chat-item" 
       *ngFor="let chat of chatList"
       [class.active]="activeChat === chat.id"
