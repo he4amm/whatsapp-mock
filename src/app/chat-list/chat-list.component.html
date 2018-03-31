@@ -22,7 +22,10 @@
             {{chat.latest_timestamp}}
           </span>
         </div>
-        <span class="chat-item_lastmsg">{{chat.lastChat}}</span>
+        <span class="chat-item_lastmsg">
+          <img *ngIf="lastMsg(chat).sender === 'me'" src="../assets/img/msg-{{lastMsg(chat).status}}.png" height="11"/>
+          {{lastMsg(chat).text}}
+        </span>
       </div>
     </div>
   </div>

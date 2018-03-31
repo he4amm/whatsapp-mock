@@ -11,7 +11,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -41,7 +41,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -71,7 +71,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -116,6 +116,16 @@
                     "type": "",
                     "link": ""
                 }
+            },
+            {
+                "sender": "Joan",
+                "time": "10:00 AM",
+                "text": "Great!!",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
             }
         ]
     },
@@ -131,7 +141,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -161,7 +171,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -169,9 +179,19 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "time": "09:45 AM",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "time": "10:00 AM",
+                "text": "yeeeeees",
+                "status": "",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -191,7 +211,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -221,7 +241,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -251,7 +271,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -281,7 +301,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -311,7 +331,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -341,7 +361,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -371,7 +391,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -401,7 +421,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -431,7 +451,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -461,7 +481,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -491,7 +511,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -521,7 +541,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -551,7 +571,7 @@
                 "sender": "me",
                 "time": "09:30 AM",
                 "text": "Hi, how are you Alex?",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""
@@ -581,7 +601,7 @@
                 "sender": "me",
                 "time": "09:40 AM",
                 "text": "I'm fine, too",
-                "status": "read",
+                "status": "seen",
                 "attachment": {
                     "type": "",
                     "link": ""

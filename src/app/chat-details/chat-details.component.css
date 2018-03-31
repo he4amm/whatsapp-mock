@@ -77,13 +77,24 @@
     margin-bottom: 2px;
 }
 
-.chat-details_content .chat_message .date {
+.chat-details_content .chat_message .chat_message-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.chat-details_content .chat_message .chat_message-header .date {
     color: rgba(0, 0, 0, 0.45);
     font-size: 11px;
     height: 15px;
     line-height: 15px;
     white-space: nowrap;
     text-align: right;
+}
+
+.chat-details_content .chat_message .chat_message-header .msg-status {
+    height: 9px;
+    margin-left: 3px;
 }
 
 .chat-details_content .chat_message .text {

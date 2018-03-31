@@ -20,4 +20,8 @@ export class ChatListComponent implements OnInit {
     this.showChat.next(data);
   }
 
+  lastMsg( chat ) {
+    return chat.messages[chat.messages.length - 1];
+  }
+
 }

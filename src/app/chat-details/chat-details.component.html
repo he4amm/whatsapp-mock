@@ -20,7 +20,10 @@
           <span class="text">
             {{message.text}}
           </span>
-          <span class="date">{{message.time}}</span>
+          <span class="chat_message-header">
+            <span class="date">{{message.time}}</span>
+            <img *ngIf="message.sender === 'me'" src="../assets/img/msg-{{message.status}}.png" class="msg-status"/>
+          </span>
         </div>
       </div>
     </div>
