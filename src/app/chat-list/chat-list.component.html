@@ -19,13 +19,12 @@
             {{chat.name}}
           </span>
           <span class="chat-item_date">
-            {{chat.latest_timestamp}}
             {{formatDateFromNow(lastMsg(chat).date)}}
           </span>
         </div>
         <span class="chat-item_lastmsg">
           <img *ngIf="lastMsg(chat).sender === 'me'" src="../assets/img/msg-{{lastMsg(chat).status}}.png" height="11"/>
-          {{lastMsg(chat).text}}
+          {{ (lastMsg(chat).text.length > 60) ? (lastMsg(chat).text | slice:0:57)+'...' : (lastMsg(chat).text) }}
         </span>
       </div>
     </div>
