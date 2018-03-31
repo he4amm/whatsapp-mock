@@ -1,9 +1,10 @@
 @media screen and (min-width: 768px) {
-    .div-left {
-        padding-right: 0px !important;
+    .nopadding:first-child {
         border-right: 1px solid rgb(228, 230, 230);
     }
-    .div-right {
-        padding-left: 0px !important;
-    }
+}
+
+.nopadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }

@@ -9,6 +9,7 @@ import { DataService } from './_services/data.service';
 export class AppComponent implements OnInit {
   chatList: any[];
   chatDetails: any[];
+  activeChatDetailsView: boolean;
 
   constructor(
     private dataService: DataService
@@ -22,6 +23,11 @@ export class AppComponent implements OnInit {
   }
 
   loadChat( data ) {
+    this.activeChatList( true );
     this.chatDetails = data;
+  }
+
+  activeChatList( action ) {
+    this.activeChatDetailsView = action;
   }
 }

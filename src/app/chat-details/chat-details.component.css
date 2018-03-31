@@ -1,6 +1,7 @@
 .chat-details_container {
     height: 100vh;
     background-color: #e5ddd5;
+    position: relative;
 }
 
 .chat-details_header {
@@ -16,6 +17,13 @@
     border-radius: 100%;
     margin-right: 15px;
     background-size: cover;
+}
+
+.chat-details_header .header_back-btn {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    cursor: pointer;
 }
 
 .chat-details_header .header_name {
@@ -146,9 +154,11 @@
 
 .chat-details_footer {
     background-color: rgb(250, 250, 250);
-    padding: 10px 33px 10px 19px;
+    padding: 10px 19px;
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    right: 0px;
     z-index: 1;
     width: 100%;
     display: flex;
