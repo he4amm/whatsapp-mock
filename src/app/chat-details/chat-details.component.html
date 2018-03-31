@@ -6,7 +6,7 @@
   </div>
 
   <div class="chat-details_content">
-    <div class="chat_message-container">
+    <div class="chat_message-container" #scrollMe [scrollTop]="scrollMe.scrollHeight">
 
       <ng-container *ngFor="let message of chatDetails.messages; let i = index;">
         <div class="chat_message-day-date sticky-top" *ngIf="isFirstInRowDate(i)">
@@ -15,7 +15,7 @@
         <div [ngClass]="{
           'sent': message.status, 
           'recieved': !message.status,
-          'firstInRow': isFirstInRowSender(i)}">
+          'firstInRow': isFirstInRowSender(i) || isFirstInRowDate(i)}">
           <div class="chat_message">
             <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
               {{message.sender}}
