@@ -30,4 +30,17 @@ export class AppComponent implements OnInit {
   activeChatList( action ) {
     this.activeChatDetailsView = action;
   }
+
+  addMessage(message) {
+    // get chat object from chat list by id passed
+    const chat = this.chatList.find(a => a.id === message[1].id);
+
+    // remove chat from list
+    this.chatList.splice(this.chatList.indexOf(chat), 1);
+    // add it to the begging
+    this.chatList.unshift(chat);
+
+    // push new message to chatDetails array
+    chat.messages.push(message[0]);
+  }
 }

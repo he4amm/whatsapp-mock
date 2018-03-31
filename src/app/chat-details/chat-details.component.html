@@ -36,10 +36,10 @@
 
   <div class="chat-details_footer">
     <div class="form-group">
-      <input type="text" class="form-control" id="message" placeholder="Type a message">
+      <input type="text" class="form-control" [(ngModel)]="message" id="message" placeholder="Type a message">
     </div>
     <span class="send">
-      <img src="../assets/img/send.png" class="send-icon"/>
+      <img src="../assets/img/send.png" class="send-icon" (click)="sendMessage()"/>
     </span>
   </div>
 </div>

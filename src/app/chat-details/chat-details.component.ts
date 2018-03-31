@@ -9,7 +9,10 @@ import * as moment from 'moment';
 export class ChatDetailsComponent implements OnInit, OnChanges {
   @Input('chatDetails') chatDetails: any;
   @Output() mobileBackAction: EventEmitter<boolean> = new EventEmitter<boolean>();
+  @Output() addMessageInChat: EventEmitter<any> = new EventEmitter<any>();
   @ViewChild('scrollMe') private myScrollContainer: ElementRef;
+
+  message: string;
 
   constructor() { }
 
@@ -55,6 +58,29 @@ export class ChatDetailsComponent implements OnInit, OnChanges {
       nextWeek: 'dddd',
       sameElse: 'L'
     });
+  }
+
+  sendMessage() {
+    // if message is empty terminate
+    if (!this.message) { return; }
+
+    this.addMessageInChat.next([
+      {
+        sender: 'me',
+        date: new Date,
+        text: this.message,
+        status: 'sent',
+        attachment: {
+          type: '',
+          link: ''
+        }
+      },
+      {
+        id: this.chatDetails.id
+      }
+    ]);
+
+    this.message = '';
   }
 
   goBack() {

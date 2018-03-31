@@ -11,6 +11,7 @@
       *ngIf="chatDetails"
       [chatDetails]="chatDetails"
       (mobileBackAction)="activeChatList($event)"
+      (addMessageInChat)="addMessage($event)"
       ></app-chat-details>
     </div>
   </div>
