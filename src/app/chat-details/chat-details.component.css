@@ -64,6 +64,26 @@
     overflow: scroll;
 }
 
+.chat-details_content .chat_message-container .chat_message-day-date {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 12px;
+    padding-top: 8px;
+}
+
+.chat-details_content .chat_message-container .chat_message-day-date span {
+    color: rgba(69, 90, 100, 0.95);
+    text-transform: uppercase;
+    font-size: 12.5px;
+    background-color: rgba(225, 245, 254, 0.92);
+    border-radius: 7.5px;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+    padding: 7px 12px 6px 12px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
 .chat-details_content .chat_message {
     display: flex;
     flex-direction: column;

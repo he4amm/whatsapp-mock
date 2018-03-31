@@ -7,25 +7,30 @@
 
   <div class="chat-details_content">
     <div class="chat_message-container">
-      <div
-        *ngFor="let message of chatDetails.messages; let i = index;"
-        [ngClass]="{
+
+      <ng-container *ngFor="let message of chatDetails.messages; let i = index;">
+        <div class="chat_message-day-date sticky-top" *ngIf="isFirstInRowDate(i)">
+          <span>{{formatDateFromNow(message.date)}}</span>
+        </div>
+        <div [ngClass]="{
           'sent': message.status, 
           'recieved': !message.status,
-          'firstInRow': isFirstInRow(i)}">
-        <div class="chat_message">
-          <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
-            {{message.sender}}
-          </span>
-          <span class="text">
-            {{message.text}}
-          </span>
-          <span class="chat_message-header">
-            <span class="date">{{message.time}}</span>
-            <img *ngIf="message.sender === 'me'" src="../assets/img/msg-{{message.status}}.png" class="msg-status"/>
-          </span>
+          'firstInRow': isFirstInRowSender(i)}">
+          <div class="chat_message">
+            <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
+              {{message.sender}}
+            </span>
+            <span class="text">
+              {{message.text}}
+            </span>
+            <span class="chat_message-header">
+              <span class="date">{{message.date | date: 'h:mm a'}}</span>
+              <img *ngIf="message.sender === 'me'" src="../assets/img/msg-{{message.status}}.png" class="msg-status" />
+            </span>
+          </div>
         </div>
-      </div>
+      </ng-container>
+      
     </div>
   </div>
 

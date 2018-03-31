@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.dataService.getChatList()
       .subscribe(result => {
-        this.chatList = result;
+        this.chatList = result.sort((a, b) => a.messages[a.messages.length - 1].date < b.messages[b.messages.length - 1].date ? 1 : -1);
       });
   }
 

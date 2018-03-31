@@ -4,12 +4,10 @@
         "type": "single",
         "name": "Alex",
         "picture": "https://image.ibb.co/cA2oOb/alex_1.jpg",
-        "latest_timestamp": "10:00 AM",
-        "lastChat": "Or maybe not, let me check logistics and call you. Give me sometime",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -19,7 +17,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -29,7 +27,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -39,7 +37,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -49,7 +47,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-31 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -64,12 +62,10 @@
         "type": "group",
         "name": "Class mates",
         "picture": "../assets/img/group.png",
-        "latest_timestamp": "12:30 AM",
-        "lastChat": "Alright",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -79,7 +75,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -89,7 +85,7 @@
             },
             {
                 "sender": "Sancha",
-                "time": "09:34 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -99,7 +95,7 @@
             },
             {
                 "sender": "Joan",
-                "time": "09:40 AM",
+                "date": "2017-09-24 13:40:17",
                 "text": "yes, you exaaaaaam",
                 "status": "",
                 "attachment": {
@@ -109,7 +105,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2017-03-29 11:20:17",
                 "text": "Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -119,7 +115,7 @@
             },
             {
                 "sender": "Joan",
-                "time": "10:00 AM",
+                "date": "2017-03-29 15:12:17",
                 "text": "Great!!",
                 "status": "",
                 "attachment": {
@@ -134,12 +130,10 @@
         "type": "single",
         "name": "Luke",
         "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
-        "latest_timestamp": "4:12 PM",
-        "lastChat": "I will look into it",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -149,7 +143,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -159,7 +153,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -169,7 +163,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -179,7 +173,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:45 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -189,7 +183,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "yeeeeees",
                 "status": "",
                 "attachment": {
@@ -204,12 +198,10 @@
         "type": "single",
         "name": "Bane",
         "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
-        "latest_timestamp": "7:53 PM",
-        "lastChat": "Exactly my point!",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -219,7 +211,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -229,7 +221,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -239,7 +231,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -249,7 +241,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -264,12 +256,10 @@
         "type": "single",
         "name": "Darth Vader",
         "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
-        "latest_timestamp": "1:09 PM",
-        "lastChat": "Not quite the same.",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -279,7 +269,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -289,7 +279,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -299,7 +289,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -309,7 +299,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -324,12 +314,10 @@
         "type": "single",
         "name": "Zach",
         "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
-        "latest_timestamp": "Yesterday",
-        "lastChat": "I thought that the event was over long ago",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -339,7 +327,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -349,7 +337,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -359,7 +347,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -369,7 +357,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -384,12 +372,10 @@
         "type": "single",
         "name": "Katie",
         "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
-        "latest_timestamp": "Yesterday",
-        "lastChat": "nothing",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -399,7 +385,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -409,7 +395,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -419,7 +405,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -429,7 +415,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -444,12 +430,10 @@
         "type": "single",
         "name": "Chloe",
         "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
-        "latest_timestamp": "Wednesday",
-        "lastChat": "sure i'll take it from you",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -459,7 +443,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -469,7 +453,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -479,7 +463,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -489,7 +473,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -504,12 +488,10 @@
         "type": "single",
         "name": "Kennith",
         "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
-        "latest_timestamp": "Wednesday",
-        "lastChat": "Take care, bye",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -519,7 +501,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -529,7 +511,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -539,7 +521,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -549,7 +531,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {
@@ -564,12 +546,10 @@
         "type": "single",
         "name": "Tara",
         "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
-        "latest_timestamp": "Monday",
-        "lastChat": "Not today",
         "messages": [
             {
                 "sender": "me",
-                "time": "09:30 AM",
+                "date": "2017-09-23 11:20:17",
                 "text": "Hi, how are you Alex?",
                 "status": "seen",
                 "attachment": {
@@ -579,7 +559,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:31 AM",
+                "date": "2017-09-23 11:30:17",
                 "text": "yes fine and yours",
                 "status": "",
                 "attachment": {
@@ -589,7 +569,7 @@
             },
             {
                 "sender": "Alex",
-                "time": "09:34 AM",
+                "date": "2017-09-24 15:45:17",
                 "text": "how was your exam?",
                 "status": "",
                 "attachment": {
@@ -599,7 +579,7 @@
             },
             {
                 "sender": "me",
-                "time": "09:40 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "I'm fine, too",
                 "status": "seen",
                 "attachment": {
@@ -609,7 +589,7 @@
             },
             {
                 "sender": "me",
-                "time": "10:00 AM",
+                "date": "2018-03-29 15:45:17",
                 "text": "and Exam gone will, thank you",
                 "status": "delivered",
                 "attachment": {

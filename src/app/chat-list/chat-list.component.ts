@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-chat-list',
@@ -22,6 +23,16 @@ export class ChatListComponent implements OnInit {
 
   lastMsg( chat ) {
     return chat.messages[chat.messages.length - 1];
+  }
+
+  formatDateFromNow(date) {
+    return moment(date).calendar(null, {
+      lastDay: '[Yesterday]',
+      sameDay: 'h:mm a',
+      lastWeek: 'dddd',
+      nextWeek: 'dddd',
+      sameElse: 'L'
+    });
   }
 
 }
