@@ -1,27 +1,22 @@
 # WhatsappMockApp
 
+Angular5 app for mocking WhatsApp.
+### Demo project available here: https://he4amm.github.io/wahtsapp-mock/
+
+![alt text](https://raw.githubusercontent.com/he4amm/wahtsapp-mock/master/src/assets/img/app-preview.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Run `npm install` once you downloaded the repo.
+- Go to app directory.
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`AppComponent`: The parent component and holds the main app functionality, as it is responsibe to add new chat message to spacific app and bind the new array of chats to child components.
 
-## Build
+`ChatListComponent`: This component responsible for rendering chat list view (left view of the app) by the object which is passed from parent app and pass events to parent app like showChat when user click on a spacific one to view chat details.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`ChatDetailsComponent`: This component responsible for rendering chat details (right view of the app), it get messages object from parent component (AppComponent) and render it and pass actions to parent component like sendMessage which is responsilbe to add new message (text or image) to current openening app.
