@@ -1,0 +1,602 @@
+[
+    {
+        "id": 2,
+        "type": "single",
+        "name": "Alex",
+        "picture": "https://image.ibb.co/cA2oOb/alex_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": "https://www.hungryhowies.com/sites/default/files/images/menu-items/thumbnails/build-pizza.png"
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": "https://media-cdn.tripadvisor.com/media/photo-s/0e/46/f3/a8/small-pizza.jpg"
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": "https://media-cdn.tripadvisor.com/media/photo-s/06/e5/84/d3/small-cheese-pizza.jpg"
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1HcQvUraY8-Y0F8LbQjB6tqyutwmT34NUEwMtkGeXM9RxiY9P"
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-31 15:45:17",
+                "text": "Hiiiii",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "group",
+        "name": "Class mates",
+        "picture": "../assets/img/group.png",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Sancha",
+                "date": "2017-09-23 11:20:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Joan",
+                "date": "2017-09-24 13:40:17",
+                "text": "yes, you exaaaaaam",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2017-03-29 11:20:17",
+                "text": "Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Joan",
+                "date": "2017-03-29 15:12:17",
+                "text": "Great!!",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "single",
+        "name": "Luke",
+        "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2018-03-29 15:45:17",
+                "text": "yeeeeees",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "single",
+        "name": "Bane",
+        "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "single",
+        "name": "Darth Vader",
+        "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "single",
+        "name": "Zach",
+        "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "single",
+        "name": "Katie",
+        "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "single",
+        "name": "Chloe",
+        "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "single",
+        "name": "Kennith",
+        "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "type": "single",
+        "name": "Tara",
+        "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Hi, how are you Alex?",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "yes fine and yours",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "how was your exam?",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "I'm fine, too",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "and Exam gone will, thank you",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    }
+]
