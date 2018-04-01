@@ -9,16 +9,8 @@
    ========================================================================== */
 
 .chat-list_header {
-    background-color: rgb(250, 250, 250);
+    background-color: var(--main-bg-color);
     padding: 10px;
-}
-
-.chat-list_header .form-group {
-    margin-bottom: 0px !important;
-}
-
-.chat-list_header .form-group input {
-    border-radius: 25px;
 }
 
 
@@ -38,9 +30,11 @@
     cursor: pointer;
 }
 
-.chat-list_content .chat-item:hover,
-.chat-list_content .chat-item.active {
-    background-color: rgb(228, 230, 230);
+@media screen and (min-width: 768px){
+    .chat-list_content .chat-item:hover,
+    .chat-list_content .chat-item.active {
+        background-color: rgb(228, 230, 230);
+    }
 }
 
 .chat-list_content .chat-item .chat-item_img {

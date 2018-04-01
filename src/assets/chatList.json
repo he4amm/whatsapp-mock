@@ -8,47 +8,47 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
-                    "link": "https://www.hungryhowies.com/sites/default/files/images/menu-items/thumbnails/build-pizza.png"
+                    "link": ""
                 }
             },
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
-                    "link": "https://media-cdn.tripadvisor.com/media/photo-s/0e/46/f3/a8/small-pizza.jpg"
+                    "link": ""
                 }
             },
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
-                    "link": "https://media-cdn.tripadvisor.com/media/photo-s/06/e5/84/d3/small-cheese-pizza.jpg"
+                    "link": ""
                 }
             },
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
-                    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1HcQvUraY8-Y0F8LbQjB6tqyutwmT34NUEwMtkGeXM9RxiY9P"
+                    "link": ""
                 }
             },
             {
                 "sender": "me",
-                "date": "2018-03-31 15:45:17",
-                "text": "Hiiiii",
+                "date": "2018-03-29 15:45:17",
+                "text": "Hey",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -66,7 +66,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -76,7 +76,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -86,7 +86,7 @@
             {
                 "sender": "Sancha",
                 "date": "2017-09-23 11:20:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -96,7 +96,7 @@
             {
                 "sender": "Joan",
                 "date": "2017-09-24 13:40:17",
-                "text": "yes, you exaaaaaam",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -106,7 +106,7 @@
             {
                 "sender": "me",
                 "date": "2017-03-29 11:20:17",
-                "text": "Exam gone will, thank you",
+                "text": "Lemon drops gummies",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -134,7 +134,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -144,7 +144,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -154,7 +154,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -164,7 +164,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -174,7 +174,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -183,7 +183,7 @@
             },
             {
                 "sender": "Alex",
-                "date": "2018-03-29 15:45:17",
+                "date": "2018-03-31 15:45:17",
                 "text": "yeeeeees",
                 "status": "",
                 "attachment": {
@@ -202,7 +202,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -212,7 +212,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -222,7 +222,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -232,7 +232,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -242,7 +242,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "text": "Jelly beans chocolate macaroon chocolate halvah dragée bear claw sweet",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -260,7 +260,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -270,7 +270,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -280,7 +280,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -290,7 +290,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -300,7 +300,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "text": "tootsie roll jelly-o fruitcake.",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -318,7 +318,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -328,7 +328,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -338,7 +338,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -348,7 +348,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -358,7 +358,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "text": "Lemon drops chocolate.",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -376,7 +376,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -386,7 +386,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -396,7 +396,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -406,7 +406,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -416,11 +416,21 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
                     "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "",
+                "status": "delivered",
+                "attachment": {
+                    "type": "image",
+                    "link": "http://www.rangerchocolate.com/assets/images/eatgood_one.png"
                 }
             }
         ]
@@ -434,7 +444,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -444,7 +454,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -454,7 +464,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -464,7 +474,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -474,7 +484,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -492,7 +502,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -502,7 +512,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -512,7 +522,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -522,7 +532,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -531,8 +541,8 @@
             },
             {
                 "sender": "me",
-                "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "date": "2018-04-01 15:45:17",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
                 "status": "delivered",
                 "attachment": {
                     "type": "",
@@ -550,7 +560,7 @@
             {
                 "sender": "me",
                 "date": "2017-09-23 11:20:17",
-                "text": "Hi, how are you Alex?",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -560,7 +570,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-23 11:30:17",
-                "text": "yes fine and yours",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -570,7 +580,7 @@
             {
                 "sender": "Alex",
                 "date": "2017-09-24 15:45:17",
-                "text": "how was your exam?",
+                "text": "Soufflé marzipan marzipan lemon drops.",
                 "status": "",
                 "attachment": {
                     "type": "",
@@ -580,7 +590,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "I'm fine, too",
+                "text": "Gummi bears macaroon marshmallow.",
                 "status": "seen",
                 "attachment": {
                     "type": "",
@@ -590,7 +600,7 @@
             {
                 "sender": "me",
                 "date": "2018-03-29 15:45:17",
-                "text": "and Exam gone will, thank you",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
                 "status": "delivered",
                 "attachment": {
                     "type": "",

@@ -1,5 +1,9 @@
 /* import Bootstrap */
+
 @import "~bootstrap/dist/css/bootstrap.css";
+:root {
+    --main-bg-color: rgb(238, 238, 238);
+}
 
 body {
     padding: 0px;

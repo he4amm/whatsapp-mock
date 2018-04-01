@@ -18,7 +18,7 @@
           'recieved': !message.status}">
           <div class="chat_message">
 
-            <div *ngIf="message.attachment.link;then img_message else text_message"></div>
+            <div *ngIf="message.attachment.type;then img_message else text_message"></div>
             <ng-template #text_message>
               <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
                 {{message.sender}}
