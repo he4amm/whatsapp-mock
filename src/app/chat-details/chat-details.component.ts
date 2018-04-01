@@ -40,15 +40,6 @@ export class ChatDetailsComponent implements OnInit, OnChanges {
     } catch (err) { }
   }
 
-  isFirstInRowSender(index) {
-    if (!this.chatDetails.messages[index - 1]) { return true; }
-
-    const prevItem = this.chatDetails.messages[index - 1].sender;
-    const currentItem = this.chatDetails.messages[index].sender;
-
-    return currentItem !== prevItem;
-  }
-
   isFirstInRowDate(index) {
     if (!this.chatDetails.messages[index - 1]) { return true; }
 

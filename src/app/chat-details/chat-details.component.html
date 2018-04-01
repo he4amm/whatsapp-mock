@@ -14,8 +14,7 @@
         </div>
         <div [ngClass]="{
           'sent': message.status, 
-          'recieved': !message.status,
-          'firstInRow': isFirstInRowSender(i) || isFirstInRowDate(i)}">
+          'recieved': !message.status}">
           <div class="chat_message">
             <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
               {{message.sender}}
