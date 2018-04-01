@@ -1,6 +1,6 @@
 <div class="chat-details_container">
   <div class="chat-details_header">
-    <img src="../assets/img/back.png" class="header_back-btn d-block d-md-none" (click)="goBack()"/>
+    <img src="./assets/img/back.png" class="header_back-btn d-block d-md-none" (click)="goBack()"/>
     <span class="header_img" [ngStyle]="{'background-image': 'url(' + chatDetails.picture + ')'}"></span>
     <span class="header_name">{{chatDetails.name}}</span>
   </div>
@@ -33,7 +33,7 @@
 
             <span class="chat_message-header">
               <span class="date">{{message.date | date: 'h:mm a'}}</span>
-              <img *ngIf="message.sender === 'me'" src="../assets/img/msg-{{message.status}}.png" class="msg-status" />
+              <img *ngIf="message.sender === 'me'" src="./assets/img/msg-{{message.status}}.png" class="msg-status" />
             </span>
           </div>
         </div>
@@ -44,7 +44,7 @@
 
   <div class="chat-details_footer">
     <span class="emojie-openr" (click)="openPopup()">
-      <img src="../assets/img/smiley.png" width="24" height="24">
+      <img src="./assets/img/smiley.png" width="24" height="24">
     </span>
     <div class="form-group">
       <emoji-input 
@@ -58,12 +58,12 @@
       <div *ngIf="message; then sendIcon else attachmentIcon"></div>
 
       <ng-template #sendIcon>
-        <img src="../assets/img/send.png" class="send-icon" (click)="sendMessage(message, 'text')" />
+        <img src="./assets/img/send.png" class="send-icon" (click)="sendMessage(message, 'text')" />
       </ng-template>
       <ng-template #attachmentIcon>
         <div class="attachment-icon">
           <input type="file" (change)="onSelectImg($event)" accept=".png, .jpg, .jpeg" class="input-file">
-          <img src="../assets/img/attachment.png" class="send-icon" />
+          <img src="./assets/img/attachment.png" class="send-icon" />
         </div>
       </ng-template>
     </span>
