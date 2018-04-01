@@ -14,7 +14,9 @@ export class ChatDetailsComponent implements OnInit, OnChanges {
 
   message: string;
 
-  constructor() { }
+  constructor() {
+    this.message = '';
+  }
 
   ngOnInit() {
   }
@@ -24,6 +26,12 @@ export class ChatDetailsComponent implements OnInit, OnChanges {
     if (changes['chatDetails']) {
       this.scrollToBottom();
     }
+  }
+
+  openPopup() {}
+
+  setPopupAction(fn: any) {
+    this.openPopup = fn;
   }
 
   scrollToBottom(): void {
