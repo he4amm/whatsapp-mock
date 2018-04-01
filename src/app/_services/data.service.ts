@@ -11,7 +11,7 @@ export class DataService {
   constructor(
     private http: HttpClient
   ) {
-    this.dataUrl = './../assets/chatList.json';
+    this.dataUrl = './assets/chatList.json';
   }
 
   getChatList(): Observable<any> {
