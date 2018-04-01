@@ -61,7 +61,7 @@
         "id": 3,
         "type": "group",
         "name": "Class mates",
-        "picture": "../assets/img/group.png",
+        "picture": "./assets/img/group.png",
         "messages": [
             {
                 "sender": "me",
