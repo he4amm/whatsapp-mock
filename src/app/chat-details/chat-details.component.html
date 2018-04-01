@@ -6,22 +6,31 @@
   </div>
 
   <div class="chat-details_content">
-    <div class="chat_message-container" #scrollMe [scrollTop]="scrollMe.scrollHeight">
+    <div class="chat_message-container" #scrollMe>
 
       <ng-container *ngFor="let message of chatDetails.messages; let i = index;">
         <div class="chat_message-day-date sticky-top" *ngIf="isFirstInRowDate(i)">
           <span>{{formatDateFromNow(message.date)}}</span>
         </div>
+
         <div [ngClass]="{
           'sent': message.status, 
           'recieved': !message.status}">
           <div class="chat_message">
-            <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
-              {{message.sender}}
-            </span>
-            <span class="text">
-              {{message.text}}
-            </span>
+
+            <div *ngIf="message.attachment.link;then img_message else text_message"></div>
+            <ng-template #text_message>
+              <span class="sender" *ngIf="chatDetails.type === 'group' && message.sender !== 'me'">
+                {{message.sender}}
+              </span>
+              <span class="text">
+                {{message.text}}
+              </span>
+            </ng-template>
+            <ng-template #img_message>
+              <img [src]="message.attachment.link" class="attachment"/>
+            </ng-template>
+
             <span class="chat_message-header">
               <span class="date">{{message.date | date: 'h:mm a'}}</span>
               <img *ngIf="message.sender === 'me'" src="../assets/img/msg-{{message.status}}.png" class="msg-status" />
@@ -38,16 +47,25 @@
       <img src="../assets/img/smiley.png" width="24" height="24">
     </span>
     <div class="form-group">
-      <!-- <input type="text" class="form-control" [(ngModel)]="message" (keydown.enter)="sendMessage()" id="message" placeholder="Type a message"> -->
       <emoji-input 
         [(model)]="message" 
         [inputClass]="'input-text'" [popupAnchor]="'bottom'"
-        (keyup)="$event.code === 'Enter' ? sendMessage() : false"
+        (keyup)="$event.code === 'Enter' ? sendMessage(message, 'text') : false"
         (setPopupAction)="setPopupAction($event)">
       </emoji-input>
     </div>
     <span class="send">
-      <img src="../assets/img/send.png" class="send-icon" (click)="sendMessage()"/>
+      <div *ngIf="message; then sendIcon else attachmentIcon"></div>
+
+      <ng-template #sendIcon>
+        <img src="../assets/img/send.png" class="send-icon" (click)="sendMessage(message, 'text')" />
+      </ng-template>
+      <ng-template #attachmentIcon>
+        <div class="attachment-icon">
+          <input type="file" (change)="onSelectImg($event)" accept=".png, .jpg, .jpeg" class="input-file">
+          <img src="../assets/img/attachment.png" class="send-icon" />
+        </div>
+      </ng-template>
     </span>
   </div>
 </div>

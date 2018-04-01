@@ -24,7 +24,13 @@
         </div>
         <span class="chat-item_lastmsg">
           <img *ngIf="lastMsg(chat).sender === 'me'" src="../assets/img/msg-{{lastMsg(chat).status}}.png" height="11"/>
-          {{ (lastMsg(chat).text.length > 60) ? (lastMsg(chat).text | slice:0:57)+'...' : (lastMsg(chat).text) }}
+          <div *ngIf="lastMsg(chat).attachment.type; then attachment else text"></div>
+          <ng-template #text>
+            {{ (lastMsg(chat).text.length > 60) ? (lastMsg(chat).text | slice:0:57)+'...' : (lastMsg(chat).text) }}
+          </ng-template>
+          <ng-template #attachment>
+            <img src="../assets/img/photo.png" width="20"/> Photo
+          </ng-template>
         </span>
       </div>
     </div>

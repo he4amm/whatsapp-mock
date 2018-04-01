@@ -4,6 +4,11 @@
     position: relative;
 }
 
+
+/* ==========================================================================
+   CHAT DETAILS HEADER
+   ========================================================================== */
+
 .chat-details_header {
     background-color: rgb(250, 250, 250);
     padding: 10px;
@@ -30,6 +35,11 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
+
+
+/* ==========================================================================
+   CHAT DETAILS CONTENT
+   ========================================================================== */
 
 .chat-details_content {
     height: calc(100vh - 116px);
@@ -95,6 +105,10 @@
     box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
     border-radius: 7.5px;
     margin-bottom: 2px;
+}
+
+.chat-details_content .chat_message img.attachment {
+    width: 100%;
 }
 
 .chat-details_content .chat_message .chat_message-header {
@@ -193,9 +207,14 @@
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACQUExURUxpccPDw9ra2m9vbwAAAAAAADExMf///wAAABoaGk9PT7q6uqurqwsLCycnJz4+PtDQ0JycnIyMjPf3915eXvz8/E9PT/39/RMTE4CAgAAAAJqamv////////r6+u/v7yUlJeXl5f///5ycnOXl5XNzc/Hx8f///xUVFf///+zs7P///+bm5gAAAM7Ozv///2fVensAAAAvdFJOUwCow1cBCCnqAhNAnY0WIDW2f2/hSeo99g1lBYT87vDXG8/6d8oL4sgM5szrkgl660OiZwAAAHRJREFUKM/ty7cSggAABNFVUQFzwizmjPz/39k4YuFWtm55bw7eHR6ny63+alnswT3/rIDzUSC7CrAziPYCJCsB+gbVkgDtVIDh+DsE9OTBpCtAbSBAZSEQNgWIygJ0RgJMDWYNAdYbAeKtAHODlkHIv997AkLqIVOXVU84AAAAAElFTkSuQmCC);
 }
 
-.chat-details_content .recieved+.recieved .chat_message:after{
+.chat-details_content .recieved+.recieved .chat_message:after {
     display: none;
 }
+
+
+/* ==========================================================================
+   CHAT DETAILS FOOTER
+   ========================================================================== */
 
 .chat-details_footer {
     background-color: rgb(250, 250, 250);
@@ -253,4 +272,24 @@
 .chat-details_footer .send .send-icon {
     width: 24px;
     height: 24px;
+}
+
+.chat-details_footer .send .attachment-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.chat-details_footer .send .attachment-icon .input-file {
+    opacity: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
 }
