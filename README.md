@@ -1,7 +1,7 @@
 # WhatsappMockApp
 
 Angular5 app for mocking WhatsApp.
-### Demo project available here: https://he4amm.github.io/wahtsapp-mock/
+### Demo project available here: https://he4amm.github.io/whatsapp-mock/
 
 ![alt text](https://raw.githubusercontent.com/he4amm/wahtsapp-mock/master/src/assets/img/app-preview.png)
 
