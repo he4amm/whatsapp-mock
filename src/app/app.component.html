@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-4 order-md-1 nopadding">
+      <app-chat-list
+      [chatList]="chatList"
+      (showChat)="loadChat($event)"></app-chat-list>
+    </div>
+    <div class="col-12 col-md-8 order-md-2 nopadding"
+    [ngClass]="{'order-first': activeChatDetailsView}">
+      <app-chat-details
+      *ngIf="chatDetails"
+      [chatDetails]="chatDetails"
+      (mobileBackAction)="activeChatList($event)"
+      (addMessageInChat)="addMessage($event)"
+      ></app-chat-details>
+    </div>
+  </div>
+</div>

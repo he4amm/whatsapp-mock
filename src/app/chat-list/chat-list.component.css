@@ -1,0 +1,74 @@
+.chat-list_container {
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+/* ==========================================================================
+   CHAT LIST HEADER
+   ========================================================================== */
+
+.chat-list_header {
+    background-color: var(--main-bg-color);
+    padding: 10px;
+    height: 58px;
+}
+
+
+/* ==========================================================================
+   CHAT LIST CONTENT
+   ========================================================================== */
+
+.chat-list_content {
+    overflow: scroll;
+    height: calc(100vh - 58px);
+}
+
+.chat-list_content .chat-item {
+    border-bottom: 1px solid rgb(228, 230, 230);
+    display: flex;
+    padding: 10px 15px 10px 10px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+    .chat-list_content .chat-item:hover,
+    .chat-list_content .chat-item.active {
+        background-color: rgb(228, 230, 230);
+    }
+}
+
+.chat-list_content .chat-item .chat-item_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.chat-list_content .chat-item .chat-item_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.chat-list_content .chat-item .chat-item_details .chat-item_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-list_content .chat-item .chat-item_details .chat-item_lastmsg {
+    color: rgb(83, 83, 83);
+}
+
+.chat-list_content .chat-item .chat-item_details .chat-item_row .chat-item_date {
+    color: rgb(121, 122, 122);
+    font-size: 12px;
+}
+
+.chat-list_content .chat-item .chat-item_details .chat-item_row .chat-item_user {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}

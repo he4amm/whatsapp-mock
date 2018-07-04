@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) {
+    .nopadding:first-child {
+        border-right: 1px solid rgb(228, 230, 230);
+    }
+}
+
+.nopadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.container-fluid {
+    height: 100vh;
+    overflow: hidden;
+}

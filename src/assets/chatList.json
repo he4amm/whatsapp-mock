@@ -1,0 +1,612 @@
+[
+    {
+        "id": 2,
+        "type": "single",
+        "name": "Alex",
+        "picture": "https://image.ibb.co/cA2oOb/alex_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Hey",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "group",
+        "name": "Class mates",
+        "picture": "./assets/img/group.png",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Sancha",
+                "date": "2017-09-23 11:20:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Joan",
+                "date": "2017-09-24 13:40:17",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2017-03-29 11:20:17",
+                "text": "Lemon drops gummies",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Joan",
+                "date": "2017-03-29 15:12:17",
+                "text": "Great!!",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "single",
+        "name": "Luke",
+        "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2018-03-31 15:45:17",
+                "text": "yeeeeees",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "single",
+        "name": "Bane",
+        "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Jelly beans chocolate macaroon chocolate halvah dragée bear claw sweet",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "single",
+        "name": "Darth Vader",
+        "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "tootsie roll jelly-o fruitcake.",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "single",
+        "name": "Zach",
+        "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Lemon drops chocolate.",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "single",
+        "name": "Katie",
+        "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "",
+                "status": "delivered",
+                "attachment": {
+                    "type": "image",
+                    "link": "http://www.rangerchocolate.com/assets/images/eatgood_one.png"
+                }
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "single",
+        "name": "Chloe",
+        "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "single",
+        "name": "Kennith",
+        "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-04-01 15:45:17",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "type": "single",
+        "name": "Tara",
+        "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
+        "messages": [
+            {
+                "sender": "me",
+                "date": "2017-09-23 11:20:17",
+                "text": "Gummies caramels liquorice marshmallow pie oat cake halvah croissant. Liquorice danish pie sweet marshmallow dragée chupa chups bear claw bonbon. Oat cake lemon drops bonbon. Candy pudding sugar plum bear claw macaroon pudding cupcake tootsie roll.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-23 11:30:17",
+                "text": "Pie gingerbread carrot cake candy canes carrot cake liquorice chocolate bar pudding. Jelly-o sweet roll bonbon gummi bears.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "Alex",
+                "date": "2017-09-24 15:45:17",
+                "text": "Soufflé marzipan marzipan lemon drops.",
+                "status": "",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Gummi bears macaroon marshmallow.",
+                "status": "seen",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            },
+            {
+                "sender": "me",
+                "date": "2018-03-29 15:45:17",
+                "text": "Lollipop chocolate bar tiramisu lemon drops tart toffee dessert.",
+                "status": "delivered",
+                "attachment": {
+                    "type": "",
+                    "link": ""
+                }
+            }
+        ]
+    }
+]

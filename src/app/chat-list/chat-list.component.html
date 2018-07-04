@@ -1,0 +1,36 @@
+<div class="chat-list_container">
+  <div class="chat-list_header">
+    <h3>WhatsApp</h3>
+  </div>
+
+  <div class="chat-list_content" id="chatlist">
+    <div class="chat-item" 
+      *ngFor="let chat of chatList"
+      [class.active]="activeChat === chat.id"
+      (click)="onChatClick(chat)">
+      <span class="chat-item_img"
+       [ngStyle]="{'background-image': 'url(' + chat.picture + ')'}">
+      </span>
+      <div class="chat-item_details">
+        <div class="chat-item_row">
+          <span class="chat-item_user">
+            {{chat.name}}
+          </span>
+          <span class="chat-item_date">
+            {{formatDateFromNow(lastMsg(chat).date)}}
+          </span>
+        </div>
+        <span class="chat-item_lastmsg">
+          <img *ngIf="lastMsg(chat).sender === 'me'" src="./assets/img/msg-{{lastMsg(chat).status}}.png" height="11"/>
+          <div *ngIf="lastMsg(chat).attachment.type; then attachment else text"></div>
+          <ng-template #text>
+            {{ (lastMsg(chat).text.length > 60) ? (lastMsg(chat).text | slice:0:57)+'...' : (lastMsg(chat).text) }}
+          </ng-template>
+          <ng-template #attachment>
+            <img src="./assets/img/photo.png" width="20"/> Photo
+          </ng-template>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
